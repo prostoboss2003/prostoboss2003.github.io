@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SyntaxWave — Dominate Los Santos with Premium Mods</title>
+  <meta name="description" content="SyntaxWave is the ultimate toolkit for dominating GTA Online. Undetectable mods, instant money drops, and premium features with zero detection risk.">
+  <meta property="og:title" content="SyntaxWave — Dominate Los Santos with Premium Mods">
+  <meta property="og:description" content="Premium undetectable mod menu. Money drops, god mode, unlocks and more. Regular updates. 24/7 support.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#6c4bf4">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="preload" as="image" href="assets/hero-illustration.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-animate>
+    <div class="container nav">
+      <a href="#" class="brand">
+        <img src="assets/logo.svg" alt="SyntaxWave logo" width="28" height="28" />
+        <span class="brand__name" data-brand>SyntaxWave</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="#" id="docs-link" aria-label="Open docs">User Guide</a>
+        <a class="btn" id="download-btn" href="#download" aria-label="Download SyntaxWave">Download</a>
+        <button class="nav__menu" id="menuButton" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#features">Features</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+      <a href="#download" class="btn">Download</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="section hero" id="hero" data-animate>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1>
+            Dominate Los Santos,
+            <span class="grad">like never before</span>
+          </h1>
+          <p class="lead">
+            <span data-brand>SyntaxWave</span> is the premium mod menu with undetectable money drops, god mode, 
+            vehicle spawning, and everything you need to rule GTA Online.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--lg" id="cta-get-started" href="#download">Download</a>
+            <a class="btn btn--lg btn--ghost" id="cta-discord" href="#" rel="noopener">Join Discord</a>
+          </div>
+
+          <ul class="stats" role="list">
+            <li>
+              <span class="stat__number" data-counter data-target="99">0</span>
+              <span class="stat__label">% undetectable</span>
+            </li>
+            <li>
+              <span class="stat__number" data-counter data-target="48000">0</span>
+              <span class="stat__label">active users</span>
+            </li>
+            <li>
+              <span class="stat__number" data-counter data-target="24" data-decimals="0">0</span>
+              <span class="stat__label">/7 support</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <div class="code-card" id="codeCard" aria-label="Feature showcase" tabindex="0">
+<pre><code class="language-ts">// SyntaxWave Feature Preview
+Menu.Activate();
+Player.GodMode = true;
+Recovery.AddMoney(10000000);
+Vehicle.Spawn("OppressorMK2");
+Weapons.UnlockAll();
+</code></pre>
+            <div class="code-card__status">
+              <span class="dot"></span> Status: Undetectable <span aria-hidden="true">•</span> <b>v2.4.1 Latest</b>
+            </div>
+          </div>
+          <img class="hero__bg-illustration" src="assets/hero-illustration.svg" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features" data-animate>
+      <div class="container">
+        <header class="section__header">
+          <h2>Ultimate Power at Your Fingertips</h2>
+          <p>Everything you need to dominate GTA Online—safely and undetected.</p>
+        </header>
+
+        <div class="features">
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox='0 0 24 24' width='24' height='24' role='img'><path d='M4 4h16v5H4zM4 15h7v5H4zM14 11h6v9h-6z' fill='currentColor'/></svg></div>
+            <h3>Money Drops</h3>
+            <p>Generate millions instantly with safe, undetectable money drop options.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox='0 0 24 24' width='24' height='24'><path d='M12 2l3 7h7l-5.5 4.5L18 21l-6-3.5L6 21l1.5-7.5L2 9h7z' fill='currentColor'/></svg></div>
+            <h3>God Mode</h3>
+            <p>Become invincible to bullets, explosions, and all damage sources.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox='0 0 24 24' width='24' height='24'><path d='M4 7h16v10H4z M2 5h20v14H2z' fill='currentColor'/></svg></div>
+            <h3>Vehicle Spawner</h3>
+            <p>Instantly spawn any vehicle, including DLC and premium vehicles.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox='0 0 24 24' width='24' height='24'><path d='M4 4h16v4H4zM4 10h10v4H4zM4 16h7v4H4z' fill='currentColor'/></svg></div>
+            <h3>Weapon Unlocks</h3>
+            <p>Access all weapons, upgrades, and exclusive items instantly.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox='0 0 24 24' width='24' height='24'><path d='M3 12l7-9 2 5 9-1-7 9-2-5z' fill='currentColor'/></svg></div>
+            <h3>Player Troll Options</h3>
+            <p>Control the battlefield with kick, crash, and teleport options.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox='0 0 24 24' width='24' height='24'><path d='M12 3a9 9 0 100 18 9 9 0 000-18zm0 4a5 5 0 015 5h-3a2 2 0 10-4 0H7a5 5 0 015-5z' fill='currentColor'/></svg></div>
+            <h3>Regular Updates</h3>
+            <p>Constant updates to ensure compatibility and avoid detection.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section class="section" id="showcase" data-animate>
+      <div class="container">
+        <header class="section__header">
+          <h2>See SyntaxWave in Action</h2>
+          <p>Watch how easily you can transform your GTA Online experience in seconds.</p>
+        </header>
+
+        <div class="showcase">
+          <div class="video-frame" role="img" aria-label="Product demo video placeholder">
+            <img src="assets/placeholder-1.svg" alt="SyntaxWave mod menu demonstration">
+            <button class="play-btn" aria-label="Play video">
+              <span class="triangle" aria-hidden="true"></span>
+            </button>
+          </div>
+          <aside class="showcase__notes">
+            <ul>
+              <li>Easy injection with <code>SyntaxWave_Loader.exe</code></li>
+              <li>Intuitive menu with categorized features</li>
+              <li>Real-time activation and deactivation</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonials" data-animate>
+      <div class="container">
+        <header class="section__header">
+          <h2>Players Love SyntaxWave</h2>
+          <p>Join thousands of satisfied users dominating Los Santos daily.</p>
+        </header>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <blockquote>“Made over $500M without any bans. The money drops are incredibly smooth and undetectable.”</blockquote>
+            <figcaption>
+              <img src="assets/avatar-1.svg" alt="" aria-hidden="true" width="32" height="32">
+              <div>
+                <strong>Mike Johnson</strong>
+                <span>Level 485, 2+ years using</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>“The customer support is amazing. They helped me set up everything and answered all my questions.”</blockquote>
+            <figcaption>
+              <img src="assets/avatar-2.svg" alt="" aria-hidden="true" width="32" height="32">
+              <div>
+                <strong>Sarah Williams</strong>
+                <span>GTA Online Veteran</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>“Finally a menu that doesn't get detected after updates. Completely free with premium features.”</blockquote>
+            <figcaption>
+              <img src="assets/avatar-3.svg" alt="" aria-hidden="true" width="32" height="32">
+              <div>
+                <strong>James Rodriguez</strong>
+                <span>Content Creator</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" data-animate>
+      <div class="container">
+        <header class="section__header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know before getting started.</p>
+        </header>
+
+        <div class="faq">
+          <details>
+            <summary>Is SyntaxWave detectable?</summary>
+            <p>No. Our menu uses advanced bypass techniques and is regularly updated to maintain undetectable status. We've had zero detection reports in the past 6 months.</p>
+          </details>
+          <details>
+            <summary>Is SyntaxWave really free?</summary>
+            <p>Yes! SyntaxWave is completely free with all premium features included - money drops, god mode, vehicle spawning, and advanced options.</p>
+          </details>
+          <details>
+            <summary>How do updates work?</summary>
+            <p>We provide free updates regularly. Typically updated within 24 hours of game patches to ensure compatibility.</p>
+          </details>
+          <details>
+            <summary>What about system requirements?</summary>
+            <p>SyntaxWave works on Windows 10/11 with GTA V updated to the latest version. No special hardware required.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / DOWNLOAD -->
+    <section class="section cta" id="download" data-animate>
+      <div class="container cta__box">
+        <div class="cta__copy">
+          <h2>Start Dominating with <span data-brand>SyntaxWave</span></h2>
+          <p>Download now and transform your GTA Online experience instantly.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn btn--xl" id="download-btn-2" href="#">
+            <span class="btn__title">Download Free</span>
+            <span class="btn__sub">Windows 10/11 • v2.4.1</span>
+          </a>
+          <a class="btn btn--xl btn--ghost" id="docs-link-2" href="#">User Guide</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <a href="#" class="brand brand--foot">
+        <img src="assets/logo.svg" alt="SyntaxWave logo" width="24" height="24" />
+        <span data-brand>SyntaxWave</span>
+      </a>
+      <nav class="foot__links" aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#download">Download</a>
+      </nav>
+      <p class="foot__legal">© <span id="year"></span> <span data-brand>SyntaxWave</span>. Not affiliated with Rockstar Games. For educational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- App config for quick rebranding -->
+  <script id="app-config" type="application/json">
+  {
+    "brandName": "SyntaxWave",
+    "accentHue": 265,
+    "downloadUrl": "#",
+    "docsUrl": "#",
+    "discordUrl": "#"
+  }
+  </script>
+</body>
+</html>
